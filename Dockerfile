@@ -1,6 +1,6 @@
 FROM python:3.6.9
 
-LABEL version = "1.0" Copyright = "2022" owner = "yillkid"
+LABEL version = "1.0" Copyright = "2022" owner = "jay"
 
 EXPOSE 5001 
 
@@ -11,4 +11,3 @@ ADD . /app
 RUN pip3 install -r requirements.txt
 
 CMD python3 server.py
-
